@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>Dupax Express | Nueva Vizcaya Super-App</title>
 
   <!-- Custom Dupax Express Maroon & Gold Scooter Logo (SVG Data Favicon) -->
@@ -13,7 +13,10 @@
   <meta property="og:title" content="Dupax Express | Nueva Vizcaya Super-App">
   <meta property="og:description" content="Order Food, Groceries, Wet Market & Pabili across Dupax del Norte, Dupax del Sur, Bambang, Aritao, Santa Fe, Bayombong & Solano.">
   <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/2830/2830305.png">
+  <meta property="og:url" content="https://onebeastcocho-cell.github.io/dupax-express/">
+  <meta property="og:type" content="website">
   <meta name="theme-color" content="#5A0B12">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Dupax Express">
@@ -24,12 +27,15 @@
       padding: 0;
       width: 100%;
       height: 100%;
+      height: 100dvh;
       overflow: hidden;
       background-color: #5A0B12;
+      -webkit-tap-highlight-color: transparent;
     }
     iframe {
       width: 100%;
       height: 100%;
+      height: 100dvh;
       border: none;
       display: block;
     }
@@ -38,7 +44,8 @@
 <body>
   <iframe 
     src="https://script.google.com/macros/s/AKfycbyjfW3wu1V_y_LWrCezw7S26Nn68Dri9KeN1JJuTf0RqYy7O5OZ47SX__qWGHFyILQG/exec"
-    allow="geolocation; camera; microphone; autoplay; clipboard-write">
+    allow="geolocation *; camera *; microphone *; autoplay *; clipboard-write *; fullscreen *"
+    allowfullscreen>
   </iframe>
 </body>
 </html>
