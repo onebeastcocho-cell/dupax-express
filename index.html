@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#7F1D1D">
   <meta name="google-site-verification" content="MIShWXvYpkNrBWLTqwK-e8-nCRyAr-sJydUxvbJIpro" />
   <!-- Primary Meta Tags for Google Search -->
   <meta name="description" content="Dupax Express is Nueva Vizcaya's local delivery Super-App. Order food, Jollibee, groceries, and errands across Dupax, Bambang, Aritao, Bayombong, and Solano with ₱25 local delivery!">
@@ -60,5 +62,11 @@
     allow="geolocation *; camera *; microphone *; autoplay *; clipboard-write *; fullscreen *"
     allowfullscreen>
   </iframe>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+      .then(() => console.log('Service Worker Registered'));
+  }
+</script>
 </body>
 </html>
