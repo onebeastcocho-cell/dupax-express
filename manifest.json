@@ -1,0 +1,21 @@
+{
+  "name": "Dupax Express",
+  "short_name": "DupaxExpress",
+  "description": "Nueva Vizcaya's Local Delivery Super-App",
+  "start_url": "/dupax-express/index.html",
+  "display": "standalone",
+  "background_color": "#7F1D1D",
+  "theme_color": "#7F1D1D",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/onebeastcocho-cell/dupax-express/main/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/onebeastcocho-cell/dupax-express/main/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
